@@ -1,0 +1,17 @@
+executables:
+  scotty-dhall-example:
+    dependencies:
+      - base == 4.10.1.0
+      - dhall == 1.8.2
+      - scotty == 0.11.0
+    main: Main.hs
+    source-dirs: ./.
+ghc-options:
+  - -O2
+  - -Wall
+  - -rtsopts
+  - -threaded
+  - -with-rtsopts=-N
+license: BSD3
+name: scotty-dhall-example
+version: '0.0.0'
